@@ -3,4 +3,10 @@ Not only lookup the temp in your local city but, also wind speed, weather alerts
 
 
 ## Daily Forecast Features
-### Feels like temperature
+- Feels like temperature
+- High / Low temperature
+- Wind speed
+- Humidity
+- Pressure
+- Sea level
+- Cloud type
