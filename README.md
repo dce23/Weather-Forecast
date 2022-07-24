@@ -10,3 +10,8 @@ Not only lookup the temp in your local city but, also wind speed, weather alerts
 - Pressure
 - Sea level
 - Cloud type
+
+## APIs used
+- OpenWeather
+- GeoDB Cities
+- NASA
