@@ -24,7 +24,7 @@ const Forecast = ({ data }) => {
     .slice(dayInWeek, weekDays.length)
     .concat(weekDays.slice(0, dayInWeek));
 
-  //console.log(forecastDays);
+  console.log(forecastDays);
 
   return (
     <>
@@ -49,8 +49,8 @@ const Forecast = ({ data }) => {
                     {item.weather[0].description}
                   </label>
                   <label htmlFor="" className="min-max">
-                    {Math.round(item.main.temp_min)}°F /
-                    {Math.round(item.main.temp_max)}°F
+                    {item.main.temp_max}°F /
+                    {item.main.temp_min}°F
                   </label>
                 </div>
               </AccordionItemButton>
@@ -65,7 +65,7 @@ const Forecast = ({ data }) => {
                   <label htmlFor="">Humidity</label>
                   <label htmlFor="">{item.main.humidity}%</label>
                 </div>
-                <div className="daily-details-grid-item">
+                <div className="daily-details-grid-item borderd">
                   <label htmlFor="">Clouds</label>
                   <label htmlFor="">{item.clouds.all}%</label>
                 </div>
