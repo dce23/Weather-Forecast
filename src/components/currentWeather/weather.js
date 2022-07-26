@@ -1,6 +1,6 @@
 import "./weather.css";
 
-const CurrentWeather = ({data}) => {
+const CurrentWeather = ({ data }) => {
   return (
     <div className="weather">
       <div className="top">
@@ -9,7 +9,11 @@ const CurrentWeather = ({data}) => {
           <p className="weather-description">{data.weather[0].description}</p>
         </div>
 
-        <img src={`icons/${data.weather[0].icon}.png`} alt="weather" className="weather-icon" />
+        <img
+          src={`icons/${data.weather[0].icon}.png`}
+          alt="weather"
+          className="weather-icon"
+        />
       </div>
       <div className="bottom">
         <p className="temperature">{Math.round(data.main.temp)}°F</p>
@@ -19,7 +23,9 @@ const CurrentWeather = ({data}) => {
           </div>
           <div className="parameter-row">
             <span className="parameter-label">Feels Like</span>
-            <span className="parameter-value">{Math.round(data.main.feels_like)}°F</span>
+            <span className="parameter-value">
+              {Math.round(data.main.feels_like)}°F
+            </span>
           </div>
           <div className="parameter-row">
             <span className="parameter-label">Wind Speed</span>
