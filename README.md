@@ -1,6 +1,7 @@
 # Weather-Forecast
-Not only lookup the temp in your local city but, also wind speed, weather alerts, Humidity, and sea level
+* Not only lookup the temp in your local city but, also wind speed, weather alerts, Humidity, and sea level
 
+## LiveSite: https://weatherforcast-el.netlify.app/
 
 ## Daily Forecast Features
 - Feels like temperature
